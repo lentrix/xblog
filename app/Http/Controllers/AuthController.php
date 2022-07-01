@@ -24,5 +24,14 @@ class AuthController extends Controller
         if(!$login) {
             return back()->with('Error','Invalid user credentials.');
         }
+
+        return redirect('/');
     }
+
+    public function logout() {
+        auth()->logout();
+        return redirect('/login');
+    }
+
+
 }

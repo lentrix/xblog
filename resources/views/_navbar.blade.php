@@ -10,10 +10,10 @@
                     <a class="nav-link" href="{{url('/')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('/recent-posts')}}">Recent Posts</a>
+                    <a class="nav-link" href="{{url('/posts/recent-posts')}}">Recent Posts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('/my-posts')}}">My Posts</a>
+                    <a class="nav-link" href="{{url('/posts/my-posts')}}">My Posts</a>
                 </li>
                 @if(auth()->guest())
                 <li class="nav-item">

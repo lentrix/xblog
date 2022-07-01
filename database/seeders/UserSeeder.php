@@ -41,7 +41,6 @@ class UserSeeder extends Seeder
                 'email' => 'teacher_twish@yahoo.com',
                 'email_verified_at' => Carbon::now()
             ],
-
         ];
 
         foreach($users as $user) {
